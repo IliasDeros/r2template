@@ -19,3 +19,11 @@ In order for Github Actions to deploy on every commit to `main`, configure repos
 
 Add another [repository secret](https://github.com/{organization}/{project}/settings/secrets/actions/new) for `VERCEL_APP_NAME`. 
 Give it a unique name, for example this template is called `rttemplate`
+
+## Troubleshooting
+
+### Vercel Build Error 
+
+If vercel build fails due to a parcel error, make sure to select "Other" as framework preset:
+
+![Vercel Screenshot](https://i.imgur.com/OMWxVfL.png)
